@@ -9,7 +9,7 @@ namespace video_app_api.Data
         {
         }
 
-        public DbSet<Video> Users { get; set; }
+        public DbSet<Video> Videos { get; set; }
         public DbSet<Category> Categories { get; set; }
     }
 }
